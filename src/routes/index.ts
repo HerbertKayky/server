@@ -14,7 +14,9 @@ const updateMamiferos = new UpdateMamiferosController()
 
 router.post('/mamifero', createMamiferos.handle)
 router.get('/mamifero/:name', findMamiferos.handle)
+router.get('/mamifero', findMamiferos.handle)
 router.delete('/mamifero/:id', deleteMamiferos.handle)
 router.put('/mamifero/:id', updateMamiferos.handle)
+
 
 export {router}
