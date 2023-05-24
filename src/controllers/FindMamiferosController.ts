@@ -6,6 +6,7 @@ export class FindMamiferosController {
         const { name: name } = request.params;
         const { name: nameBody } = request.body;
 
+
         const mamiferos = await database.mamiferos.findMany({
             where: {
                 OR:[
@@ -17,5 +18,3 @@ export class FindMamiferosController {
         return response.json(mamiferos);
     }
 }
-
-    
