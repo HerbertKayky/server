@@ -9,7 +9,7 @@ export class CreateMamiferosController {
             data: {
                 name: "Foca",
                 age: 9,
-                description: "A foca é um mamífero marinho que possui corpo alongado, nadadeiras adaptadas para nadar e se locomover na água, e é conhecida por sua habilidade de mergulho e por ser uma excelente nadadora.",
+                description: "A foca é um mamífero marinho que possui corpo alongado.",
                 extinct: false
             }
         })
